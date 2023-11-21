@@ -15,14 +15,16 @@
 
 
 body{
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     background-color: antiquewhite;
 }
 header{
+    color: rgb(96,96,96);;
     width: 100%;
     height: 10%;
     background-color: white;
+    position: fixed;
 
 }
 
@@ -32,6 +34,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
+    z-index: 10001;
 }
 
 /* ----------Nav-logo section ------------- */
@@ -53,63 +56,128 @@ nav{
 .nav-search-bar{
     width: 520px;
     height: 35px;
-    background-color: aquamarine;
     margin-right: 30px;
     display: flex;
     align-items: center;
+    border: 1px solid rgb(183, 173, 173);
 }
 .nav-search-bar input{
-    width: 95%;
+    width: 96%;
     height: 100%;
     padding: 5px 10px;
-    border: 1px solid black;
+    border: none;
 }
 .nav-search-bar span{
     background-color: rgb(219, 222, 222);
     width: auto;
     height: 100%;
     padding-top: 6px;
+    border: none;
 }
 
 /* --------------main-content-section------------ */
 
 .main-content-section{
     display: flex;
-
-    
+    padding-top: 59px;
+    padding-left: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 .asidebar{
-    width: 13%;
-    display: flex;
-    flex-direction: column;
-}
-.categeris1 div{
-    width: ;
+    color: rgb(96,96,96);
+    width: 180px;
+    position: fixed;
+    padding-top: 60px;
+   background-color: white;
+   z-index: -1;
     
-
 }
+
+.categeris1{
+    padding: 20px 20px;
+}
+.singel-items{
+       width: 100%;
+       height: 53px;
+       display: flex;
+       align-items: center; 
+}
+.singel-items i{
+    width: 40px;
+}
+
 
 
 /* ----------videos-section------------- */
 
 .videos-section{
-    width: 86%;
-    height: 100vh;
-    background-color: rgb(224, 181, 129);
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(244, 79, 34);
+}
+.videos-section h3{
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 .multiple-videos{
-    width: 100%;
-    height: 100vh;
+    width: 98%;
+    height: 100%;
     background-color: aqua;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .single-video{
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 260px;
     background-color: blue;
+    margin-bottom: 15px;
+}
+.thumbnail {
+    width: 100%;
+    height: 160px;
+    background-color: rgb(32, 54, 54);
+
+}
+.thumbnail img{
+    
+    width: 100%;
+    height: 160px;
+}
+.ditails-section{
+    display: flex;
+    
+}
+.chennal-logo{
+    padding: 10px 5px;
+    width: 120px;
+    height: 90%;
+}
+.chennal-logo img{
+    width: 100%;
+    height: 100%;
+
 }
 
+.ditailsofvideo p{
+    font-weight: bold;
+    font-size: 18px;
+}
+#channelname{
+    font-size: 14px;
+    font-weight: normal;
+}
+#views{
+    font-size: 16px;
+    font-weight: normal;
+}
 
 

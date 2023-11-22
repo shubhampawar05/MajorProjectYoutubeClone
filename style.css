@@ -22,9 +22,9 @@ body{
 header{
     color: rgb(96,96,96);;
     width: 100%;
-    height: 10%;
+    height: 10vh;
     background-color: white;
-    position: fixed;
+    /* position: fixed; */
 
 }
 
@@ -34,7 +34,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    z-index: 10001;
+ 
 }
 
 /* ----------Nav-logo section ------------- */
@@ -79,19 +79,20 @@ nav{
 
 .main-content-section{
     display: flex;
-    padding-top: 59px;
-    padding-left: 200px;
+    /* padding-top: 59px;
+    padding-left: 200px; */
     width: 100%;
-    height: 100%;
+    height: 90vh;
 }
 
 .asidebar{
     color: rgb(96,96,96);
-    width: 180px;
-    position: fixed;
-    padding-top: 60px;
+    width: 13%;
+    /* position: fixed; */
+    /* padding-top: 60px; */
    background-color: white;
-   z-index: -1;
+   height: 90vh;
+   /* z-index: -1; */
     
 }
 
@@ -113,44 +114,47 @@ nav{
 /* ----------videos-section------------- */
 
 .videos-section{
-    max-width: 100%;
+    padding: 15px 15px;
+    width: 87%;
     max-height: 100%;
+     overflow-y: scroll;
     background-color: rgb(244, 79, 34);
 }
 .videos-section h3{
-    padding-left: 10px;
-    padding-top: 25px;
+    /* padding-left: 10px; */
     padding-bottom: 10px;
     font-size: 20px;
 }
 
 .multiple-videos{
-    width: 98%;
-    height: 100%;
+    width: 100%;
+    /* height: 100%; */
     background-color: aqua;
     margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+   
 }
 
 .single-video{
     width: 310px;
-    height: 260px;
+    height: 280px;
     background-color: blue;
+    /* margin-bottom: 30px; */
     margin-bottom: 15px;
 }
 .thumbnail {
     width: 100%;
-    height: 160px;
+    height: 175px;
     background-color: rgb(32, 54, 54);
 
 }
 .thumbnail img{
     
     width: 100%;
-    height: 160px;
+    height: 175px;
 }
 .ditails-section{
     display: flex;
@@ -176,7 +180,7 @@ nav{
     font-weight: normal;
 }
 #views{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
 }
 
